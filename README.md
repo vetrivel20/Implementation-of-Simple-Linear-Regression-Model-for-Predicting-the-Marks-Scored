@@ -64,7 +64,9 @@ plt.plot(x_train,regressor.predict(x_train),color='blue')
 plt.title("Hours vs Scores(Testing set)")
 plt.xlabel("Hours")
 plt.ylabel("Scores")
+
 plt.show()
+
 mse=mean_absolute_error(y_test,y_pred)
 print('MSE = ',mse)
 mae=mean_absolute_error(y_test,y_pred)
