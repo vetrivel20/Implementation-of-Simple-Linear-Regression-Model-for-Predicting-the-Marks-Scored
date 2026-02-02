@@ -28,6 +28,7 @@ Developed by: M.Vetrivel
 RegisterNumber:  212225040487
 */
 ```
+```
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -70,6 +71,7 @@ mae=mean_absolute_error(y_test,y_pred)
 print('MAE = ',mae)
 rmse=np.sqrt(mse)
 print("RMSE= ",rmse)
+```
 
 ## Output:
 <img width="728" height="417" alt="Screenshot 2026-02-02 110151" src="https://github.com/user-attachments/assets/fe1e71af-2c54-426b-933f-0d6382ecc5f4" />
